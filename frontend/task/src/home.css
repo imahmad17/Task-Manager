@@ -1,0 +1,51 @@
+.task-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.tasks-table {
+    flex: 1;
+    margin-bottom: 20px; 
+}
+
+.tasks-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tasks-table th, .tasks-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.add-task, .filter-box {
+    flex: 0 0 auto; 
+    margin-bottom: 20px; 
+}
+
+.add-task form {
+    margin-top: 20px;
+}
+
+.filter-box select {
+    width: 100%;
+    padding: 10px;
+}
+
+
+.add-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 8px;
+    font-size: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px ; 
+    margin-left: 10px; 
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
